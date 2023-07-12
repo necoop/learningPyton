@@ -1,3 +1,25 @@
+# Task 1
+print('Задание 1')
+date=input('Введите дату: ')
+task=input('Введите задачу: ')
+print(date, task)
+
+# Task 2
+print('Задание 2')
+date=[]
+task=[]
+i=0
+while i < 3:
+  date.append(input('Введите дату: '))
+  task.append(input('Введите задачу: '))
+  i += 1
+i=0
+while i < 3:
+  print(date[i], task[i])
+  i += 1
+
+# Task 3
+print('Задание 3')
 myDictonary = {}
 i = 0
 while i < 3:
