@@ -1,0 +1,7 @@
+myDictonary = {}
+i = 0
+while i < 3:
+  date = input('Введите дату: ')
+  task = input('Введите задание: ')
+  myDictonary[date]=task
+  i += 1
